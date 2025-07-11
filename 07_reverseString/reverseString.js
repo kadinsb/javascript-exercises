@@ -1,4 +1,14 @@
-const reverseString = function() {
+
+const reverseString = (string) => {
+
+
+    let reversed = ``;
+
+    for (const letters of string){
+        reversed = letters + reversed;
+    }
+
+    return reversed;
 
 };
 
